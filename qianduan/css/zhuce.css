@@ -1,0 +1,62 @@
+/*默认样式清零*/
+*{
+	margin:0;
+	padding:0;
+}
+/*公共类*/
+.lf{
+	float:left;
+}
+.rh{
+	float:right;
+}
+/* 整体 */
+.zt{
+	width:1000px;
+	
+	
+}
+.zt1{
+	width:1000px;
+	height:800px;
+	margin-left:150px;
+	background-color:#F8F8F8;
+}
+/* 头部 */
+.zchead{
+	width:1000px;
+	height:60px;
+	background-color:#333333;
+	
+}
+.zcheadlogo{
+	margin-top:5px;
+}
+.zcheadwz{
+	width:200px;
+	height:60px;
+	line-height:60px;
+	color:#FFFFFF;
+}
+.zcsjh{
+	width:1000px;
+	height:40px;
+}
+.zcsjh .a{
+	width:100px;
+	height:20px;
+	background-color:red;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:20px;
+	border-radius:5px;
+}
+.zcsjh .b{
+	width:200px;
+	height:20px;
+	margin-top:20px;
+	text-align:center;
+}
+.zcsjh .b a{
+	color:red;
+}

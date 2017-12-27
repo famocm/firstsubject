@@ -1,0 +1,128 @@
+/*默认样式清零*/
+*{
+	margin:0;
+	padding:0;
+}
+/*公共类*/
+.lf{
+	float:left;
+}
+.rh{
+	float:right;
+}
+.font{
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+/*整体*/
+.zt{
+	width:1350px;
+}
+/* 主要部分 */
+.zy{
+	width:1200px;
+}
+.zy .top{
+	width: 1200px;
+	height: 30px;
+	position: relative;
+	left: 30px;
+	line-height: 30px;
+}
+.zy .grzx{
+	width:1200px;
+	margin-left:25px;
+	margin-top:10px;
+}
+.zy .grzx .wdsc{
+	width:245px;
+	background-color:#FAFAFA;
+}
+.zy .grzx .wdsc .a{
+	width:245px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+}
+.zy .grzx .wdsc .b{
+	width:185px;
+	height:205px;
+	margin-left:20px;
+}
+.zy .grzx .wdsc .b .dd{
+	color:#888888;
+}
+.zy .grzx .wdsc .b p{
+	margin-top:20px;
+}
+.zy .grzx .wdsc .c{
+	width:185px;
+	height:440px;
+	margin-left:20px;
+}
+.zy .grzx .wdsc .c .dd{
+	color:#888888;
+}
+.zy .grzx .wdsc .c p{
+	margin-top:20px;
+}
+.zy .grzx .wdsc .d{
+	width:185px;
+	height:130px;
+	margin-left:20px;
+}
+.zy .grzx .wdsc .d .dd{
+	color:#888888;
+}
+.zy .grzx .wdsc .d p{
+	margin-top:20px;
+}
+.zy .dingdanye{
+	width:900px;
+	margin-left:20px;
+}
+.zy .dingdanye .a{
+	width:900px;
+}
+.zy .dingdanye .b{
+	width:900px;
+	height:40px;
+	background-color:#FAFAFA;
+	font-size:16px;
+	text-align:center;
+	line-height:40px;
+	margin-top:20px;
+}
+.zy .dingdanye .b .aa{
+	width:300px;
+}
+.zy .dingdanye .b .bb{
+	width:150px;
+}
+.zy .dingdanye .c{
+	width:900px;
+	text-align:center;
+	margin-top:10px;
+}
+.zy .dingdanye .c .aa{
+	width:300px;
+	margin-top:5px;
+}
+.zy .dingdanye .c .aa span{
+	margin-bottom:20px;
+	line-height:80px;
+}
+.zy .dingdanye .c .bb{
+	width:150px;
+	line-height:80px;
+}
+.zy .dingdanye .c .cc{
+	width:900px;
+}

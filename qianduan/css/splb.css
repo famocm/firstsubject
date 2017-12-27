@@ -1,0 +1,327 @@
+/*默认样式清零*/
+*{
+	margin:0;
+	padding:0;
+}
+/*公共类*/
+.lf{
+	float:left;
+}
+.rh{
+	float:right;
+}
+.font{
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+/*整体*/
+.zt{
+	width:1350px;
+}
+/*最顶上的部分*/
+.top{
+	width:1350px;
+	height:30px;
+	position:relative;
+	background-color:#FAFAFA;
+}
+.topleft{
+	width:550px;
+	height:30px;
+
+
+}
+.topleft  ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}			
+.topleft  ul li{
+	width:100px;
+	float:left;
+	position:relative;
+	text-align:center;
+	line-height:30px;
+	
+}
+.topleft:hover{
+	color:#FAFAFA;
+	position:relative;
+				
+}
+.topleft a{
+	color:#808080;
+}
+.topleft a:hover{
+	text-decoration:none;
+	color:red;
+}
+.topleft ul li ul li{
+	clear:both;
+	width:60px;
+	background-color:#FFFFFF;
+	margin-left:20px;
+}
+.topleft ul ul{
+display:none;
+}
+.topleft .aa:hover>ul{
+	display:block;
+	position:absolute;
+} 
+.topcenter{
+	width:230px;
+	height:30px;
+	margin-left:10px;
+}
+.topcenter  ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.topcenter ul::after{
+	display:block;
+	clear:both;
+}			
+.topcenter  ul li{
+	float:left;
+	position:relative;
+	margin-left:15px;
+	margin-top:5px;
+	
+}
+.topcenter a{
+	text-decoration:none;
+	color:black;
+}
+.topcenter a:hover{
+	color:red;
+}
+.topright{
+	width:500px;
+	height:30px;
+}
+.topright  ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+			
+.topright  ul li{
+	width:120px;
+	height:25px;
+	float:left;
+	text-align:center;
+	line-height:30px;
+}
+.topright:hover{
+		color:white;
+		position:relative;
+				
+}
+.topright a{
+	color:#808080;
+}
+.topright a:hover{
+	text-decoration:none;
+	color:red;
+}
+.topright ul li ul li{
+	clear:both;
+	width:60px;
+	background-color:#FFFFFF;
+	margin-left:20px;
+}
+.topright ul ul{
+	display:none;
+}
+.topright .aa:hover>ul{
+	display:block;
+	position:absolute;
+}
+/*搜索栏*/
+.sousuo{
+	width:1350px;
+	height:115px;
+}
+.sousuoleft{
+	width:330px;
+	height:115px;
+	
+}
+.sousuoleft .tp{
+	width:220px;
+	height:112px;
+	margin-top:35px;
+	margin-left:65px;
+}	
+.sousuocenter{
+	width:700px;
+	height:115px;
+}
+.sousuocenter .dd{
+	line-height:115px;
+}
+.sousuocenter .dx1{
+	width:395px;
+	height:40px;
+	margin-left:45px;
+}
+.sousuocenter .dx2{
+	width:40px;
+	height:40px;
+	margin-right:5px;
+}
+.sousuocenter .dx3{
+	width:100px;
+	height:100px;
+	border:1px solid #EEEEE;
+}
+.sousuoright{
+	width:95px;
+	height:95px;
+	margin-top:20px;
+	margin-right:125px;
+	
+}
+/*导航栏*/
+.dhl{
+	width:1350px;
+	height:40px;
+	background-color:#3A3A3A;
+}
+.dhlleft{
+	width:240px;
+	height:40px;
+	background-color:#C81118;
+	margin-left:30px;
+}
+.dhlleft h2{
+	color:white;
+	font-size:16px;
+	line-height:40px;
+	margin-left:15px;
+}
+.dhlright{
+	width:1000px;
+	height:40px;
+}
+.dhlright span{
+	float:left;
+	text-align:center;
+	line-height:40px;
+	width:110px;
+	height:40px;
+	background-color:#3A3A3A;
+}
+.dhlright a{
+	width:110px;
+	height:40px;
+	background-color:#3A3A3A;
+	color:white;
+	text-decoration:none;
+}
+.dhlright span:hover{
+	color:white;
+	width:110px;
+	height:40px;
+	background-color:#313131;
+}
+.dhlright h2{
+	font-size:15px;
+	font-family:楷体;
+}
+/*主要内容*/
+.zy{
+	width:1200px;
+}
+.zy .top{
+	width: 1200px;
+	position: relative;
+	left: 30px;
+	line-height: 30px;
+}
+.zy .ml{
+	width: 1200px;
+	border: 1px	solid #DEDEDE;
+	position: relative;
+	left:30px;
+	line-height: 50px;
+
+}
+.zy .ml span{
+	position: relative;
+	left:40px;
+}
+.zy .sp{
+	width:1200px;
+	position: relative;
+	left: 30px;
+}
+.zy .sp .a{
+	width:225px;
+	border:1px solid #DEDEDE;
+	margin:35px;
+}
+.zy .sp .a:hover{
+	width:225px;
+	border:1px solid #FF0000;
+}
+.zy .sp .a .a1{
+	width:225px;
+	height:333px;
+	border-bottom:1px solid #DEDEDE;
+}
+.zy .sp .a .a1 .t1{
+	width:185px;
+	height:205px;
+	margin-top:15px;
+	margin-left:20px;
+}
+.zy .sp .a .a1 .t2{
+	text-align:center;
+	margin-top:10px;
+}
+.zy .sp .a .a1 .t2 .one{
+	color:#808080;
+}
+.zy .sp .a .a1 .t2 .two{
+	font-size:20px;
+	color:red;
+	margin-top:20px;
+}
+.zy .sp .a .a2{
+	width:225px;
+	height:32px;
+}
+.zy .sp .a .a2 .lf1{
+	width:112px;
+	height:32px;
+	border-right:1px solid #DEDEDE;
+	color:red;
+	text-align:center;
+	line-height:32px;
+}
+.zy .sp .a .a2 .lf1:hover{
+	width:112px;
+	height:32px;
+	border-right:1px solid #DEDEDE;
+	color:white;
+	background-color:red;
+	text-align:center;
+	line-height:32px;
+}
+.zy .sp .a .a2 .lf2{
+	width:111px;
+	height:32px;
+	text-align:center;
+	line-height:32px;
+	color:#DEDEDE;
+}

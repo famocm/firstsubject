@@ -1,0 +1,141 @@
+/*默认样式清零*/
+*{
+	margin:0;
+	padding:0;
+}
+/*公共类*/
+.lf{
+	float:left;
+}
+.rh{
+	float:right;
+}
+.font{
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+/* 主要部分 */
+.zy{
+	width:1200px;
+}
+.zy .top{
+	width:1200px;
+	height:30px;
+	position:relative;
+	left: 30px;
+	line-height:30px;
+}
+.zy .grzx{
+	width:1200px;
+	margin-left:25px;
+	margin-top:10px;
+}
+.zy .grzx .wdsc{
+	width:245px;
+	background-color:#FAFAFA;
+}
+.zy .grzx .a1{
+	width:245px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+}
+.zy .grzx .b1{
+	width:185px;
+	height:205px;
+	margin-left:20px;
+}
+.zy .grzx .b1 .dd{
+	color:#888888;
+}
+.zy .grzx .b1 p{
+	margin-top:20px;
+}
+.zy .grzx .c1{
+	width:185px;
+	height:440px;
+	margin-left:20px;
+}
+.zy .grzx .c1 .dd{
+	color:#888888;
+}
+.zy .grzx .c1 p{
+	margin-top:20px;
+}
+.zy .grzx .d1{
+	width:185px;
+	height:130px;
+	margin-left:20px;
+}
+.zy .grzx .d1 .dd{
+	color:#888888;
+}
+.zy .grzx .d1 p{
+	margin-top:20px;
+}
+.zy .ddxq{
+	width:900px;
+	margin-left:20px;
+}
+.zy .ddxq .id{
+	width:900px;
+}
+.zy .ddxq .sh{
+	width:900px;
+	margin-top:20px;
+}
+.zy .ddxq .sh .xx{
+	width:200px;
+}
+.zy .ddxq .sh .xxx{
+	width:900px;
+	font-size:15px;
+}
+.zy .ddxq .sh .xxx p{
+	margin-top:10px;
+}
+.zy .ddxq .sp{
+	width:900px;
+	margin-top:20px;
+}
+.zy .ddxq .sp .spxx{
+	width:900px;
+}
+.zy .ddxq .sp .spxx1{
+	width:900px;
+	background-color:#FAFAFA;
+	text-align:center;
+	margin-top:20px;
+	line-height:40px;
+}
+.zy .ddxq .sp .spxx1 .aa1{
+	width:300px;
+}
+.zy .ddxq .sp .spxx1 .bb1{
+	width:150px;
+}
+.zy .ddxq .sp .spxx2{
+	width:900px;
+	text-align:center;
+	margin-top:10px;
+}
+.zy .ddxq .sp .spxx2 .aa1{
+	width:300px;
+	margin-top:5px;
+}
+.zy .ddxq .sp .spxx2 .aa1 span{
+	margin-bottom:20px;
+	line-height:80px;
+}
+.zy .ddxq .sp .spxx2 .bb1{
+	width:150px;
+	line-height:80px;
+}

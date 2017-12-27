@@ -1,0 +1,61 @@
+/*默认样式清零*/
+*{
+	margin:0;
+	padding:0;
+}
+/*公共类*/
+.lf{
+	float:left;
+}
+.rh{
+	float:right;
+}
+/* 整体 */
+.zt{
+	width:1000px;
+	margin-left:150px;
+	background-color:#F8F8F8;
+}
+/* 头部 */
+.dlhead{
+	width:1000px;
+	height:60px;
+	background-color:#F8F8C9;
+}
+.dlheadlogo{
+	margin-top:5px;
+	margin-left:
+}
+.dlheadwz{
+	width:200px;
+	height:60px;
+	line-height:60px;
+	color:#999999;
+}
+.dlcenter{
+	width:1000px;
+	height:600px;
+	background-color:#F8F8F8;
+}
+.dlcenterleft {
+	width:505px;
+	height:510px;
+	margin-top:20px;
+	
+}
+.dlcenterright{
+	width:495px;
+	height:490px;
+}
+.dlcenterright h2{
+	text-align:center;
+	color:#EA5E00;
+	width:200px;
+	height:40px;
+	margin-top:60px;
+	margin-left:60px;
+}
+.dlcenterright .a{
+	width:200px;
+	height:40px;
+}
